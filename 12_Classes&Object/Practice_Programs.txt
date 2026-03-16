@@ -1,0 +1,18 @@
+    1. Create a BankAccount class with deposit(), withdraw(), and displayBalance(). 
+    Use multiple objects for different accounts.
+    2. Create a Book class with title, author, and ISBN, and a Library class to 
+    add/remove books and display the catalog.
+    3. Create a Student class with name, rollNo, and marks[] 
+    with methods calculateTotal(), calculateAverage(), and displayGrade().
+    4. Create an Employee class with name, id, and basicSalary, 
+    and calculate HRA, DA, and net salary using methods.
+    5. Create a Car class with model and rentPerDay, and a Rental class to calculate 
+    total rent for a number of days.
+    6. Create a Shape base class and subclasses Circle, Rectangle, and Triangle, 
+    overriding calculateArea() in each subclass.
+    7. Create a Vehicle base class with subclasses Car and Bike, and implement polymorphism so startEngine() behaves differently for each.
+    8. Create an Employee base class with subclasses PermanentEmployee and  ContractEmployee, overriding calculateSalary() differently for each type.
+    9. Create a Student class with private marks and a public setter that validates 
+    marks are 0–100.
+    10. Create a BankAccount class with a private balance field and methods deposit() 
+    and withdraw() with validation.

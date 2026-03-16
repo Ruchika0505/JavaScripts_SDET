@@ -1,0 +1,67 @@
+// Example 1 — Returning a Normal Value
+
+async function test() {
+    return "Hello";
+}
+
+let result = test();
+console.log(result); //Promise { 'Hello' }
+
+
+// Why?
+// Because JavaScript internally converts it to:
+
+// function test() {
+//     return Promise.resolve("Hello");
+// }
+// Example 2 — Using .then()
+
+async function test() {
+    return "Hello";
+}
+
+test().then((data) => {
+    console.log(data);
+}); //Hello (Here .then() receives the resolved value of the Promise.)
+
+// Example 3 — Returning a Number
+
+async function add() {
+    return 10;
+}
+
+let value = add();
+console.log(value); //Promise { 10 }
+
+add().then((val)=>console.log(val)).catch((err)=>console.log(err))
+
+
+
+// Example 4 — Returning a Promise inside async
+
+const pro=new Promise((resolve,reject)=>
+{
+     let success =false
+     if(success)
+     {
+        resolve("JS")
+     }
+     else{
+       reject("error")
+     }
+})
+
+async function getData() {
+    return pro;
+}
+
+
+// getData()
+// .then((data) => {
+//     console.log(data)})
+
+// .catch((err)=>{
+//     console.log(err)});
+
+// Output
+// JS

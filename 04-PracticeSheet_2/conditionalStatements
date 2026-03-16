@@ -1,0 +1,20 @@
+1.Take a year as input and print whether it is a leap year.
+
+2.Input marks of a student and print grade (A, B, C, F) using if-else if-else.
+
+3.Input a number and check if it lies between 10 and 50 and whether it is even.
+
+4.Take username and password, verify against predefined credentials, print success/failure.
+
+5.Input three numbers and print the largest.
+
+6.Input a character and check if it is a vowel or consonant.
+
+7.Input a number and print whether it is positive, negative, or zero.
+
+8.Input two numbers and an operator (+, -, *, /), print the result.
+
+9. Input a day number (1–7) and print the day name using switch.
+
+10. Input total bill amount, apply discount if total > 1000, print final price.
+

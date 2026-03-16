@@ -1,0 +1,35 @@
+Find the second largest number in an array.
+Remove duplicate elements from an array (without using Set).
+Count frequency of each element in an array.
+Find all pairs whose sum = target value.
+Rotate array to the right by k positions.
+Reverse array without using reverse().
+Check if two arrays are equal (value-based comparison).
+Find missing number from a sorted sequence.
+Merge two sorted arrays into one sorted array.
+Find the longest word in an array of strings.
+Convert array of numbers to their squares using map().
+Filter out even numbers from array.
+Find sum of array using reduce().
+Group numbers into even and odd using reduce().
+Convert array of names to uppercase.
+Create an object from array: ["a","b","c"] → {0:"a",1:"b",2:"c"}
+Sort array in descending order.
+Sort array of objects by age.
+Find first element greater than 50.
+Find index of first negative number.
+Binary search implementation (without using includes).
+Flatten a nested array (1 level).
+Flatten deeply nested array 
+Convert array to comma-separated string.
+Chunk array into groups of size n.
+Remove falsy values from array.
+Find intersection of two arrays.
+Find difference between two arrays.
+From array of users, return list of emails.
+From array of products, calculate total price.
+Find most frequent element.
+Check if array is palindrome.
+Count occurrences of a specific element.
+Remove element at specific index without splice().
+Convert 2D array into 1D array.

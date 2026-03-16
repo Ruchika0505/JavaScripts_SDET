@@ -1,0 +1,11 @@
+    1. Create a division calculator that handles ArithmeticException for divide-by-zero.
+    2. Access array elements safely and catch ArrayIndexOutOfBoundsException.
+    3. Convert a String to int and handle NumberFormatException.
+    4. Create a custom InvalidAgeException and throw it from a Person class constructor 
+    if age < 18.
+    5. Create a Student marks and grades system that throws InvalidMarksException 
+    if marks < 0 or > 100 and displays grade otherwise.
+    6. Create a bank withdrawal system that throws InsufficientBalanceException 
+    if withdrawal > balance.
+    7. Create a course enrollment system where a student enrolls in a course and throws 
+    an exception if the course is full or the student is already enrolled.

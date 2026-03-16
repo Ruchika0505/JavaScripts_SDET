@@ -1,0 +1,29 @@
+Print Even Numbers – Print all even numbers between 1 and 50.
+
+Sum of Natural Numbers – Input n and calculate the sum from 1 to n.
+
+Factorial Calculator – Input a number and print its factorial.
+
+Fibonacci Series – Print first n numbers of the Fibonacci series.
+
+Reverse a Number – Input a number and print its reverse.
+
+Prime Number Checker – Input a number and check if it is prime.
+
+Multiplication Table – Input a number and print its multiplication table up to 10.
+
+Break on Condition – Print numbers 1 to 20, but stop when number equals 13.
+
+Skip Certain Numbers – Print numbers 1 to 15, skip multiples of 3 using continue.
+
+Sum of Even Numbers Only – Input n and print the sum of all even numbers from 1 to n.
+
+Check Armstrong Number – Input a number and check if it is an Armstrong number.
+
+Print Odd Numbers in Reverse – Print all odd numbers from 50 down to 1.
+
+Count Digits in a Number – Input a number and print how many digits it contains.
+
+GCD of Two Numbers – Input two numbers and print their Greatest Common Divisor.
+
+Display Factors of a Number – Input a number and print all of its factors.

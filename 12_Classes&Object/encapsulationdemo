@@ -1,0 +1,34 @@
+// Encapsulation = Wrapping data (variables) and methods inside a class and restricting direct access to them.
+
+// Real-Life Analogy
+
+// ATM Machine
+
+// You cannot directly access bank balance variable.
+// You use methods like:
+// withdraw()
+// deposit()
+// Balance is hidden internally.
+// That is Encapsulation.
+
+
+class BankAccount {
+    #balance = 1000;   // Private variable
+
+    deposit(amount) {
+        if (amount > 0) {
+            this.#balance += amount;
+        }
+    }
+
+    getBalance() {
+        return this.#balance;
+    }
+}
+
+const account = new BankAccount();
+account.deposit(1000);
+account.balance;
+
+console.log(account.getBalance()); 
+// console.log(account.#balance);     //error

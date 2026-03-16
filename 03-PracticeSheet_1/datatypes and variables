@@ -1,0 +1,66 @@
+Variables
+Program to declare and print a variable using var.
+
+Program to declare and print a variable using let.
+
+Program to declare a constant using const.
+
+Program to reassign a value to a let variable.
+
+Program to show redeclaration behavior of var.
+
+Program to demonstrate block scope using let.
+
+Program to demonstrate function scope using var.
+
+Program to store and print multiple variables in one output.
+
+Program to swap values of two variables.
+
+Program to declare a variable without assigning a value.
+
+🔹 Data Types
+
+Program to create and print a string variable.
+
+Program to create and print a number variable.
+
+Program to create and print a boolean variable.
+
+Program to check the data type of a variable using typeof.
+
+Program to store null in a variable and check its type.
+
+Program to declare an undefined variable and print it.
+
+Program to create an array and print its values.
+
+Program to create an object and print its properties.
+
+Program to modify a value inside an object.
+
+Program to demonstrate dynamic typing in JavaScript.
+
+🔹 Primitive vs Reference Types
+
+Program to show value copy behavior of primitive data types.
+
+Program to show reference copy behavior of objects.
+
+Program to compare two primitive values.
+
+Program to compare two objects with same data.
+
+Program to modify one reference variable and observe changes in another.
+
+🔹 Type Checking & Conversion
+
+Program to convert a string number into a number.
+
+Program to check the type before and after conversion.
+
+Program to convert a number into a string.
+
+Program to demonstrate implicit type conversion.
+
+Program to demonstrate explicit type conversion.

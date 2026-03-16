@@ -1,0 +1,14 @@
+1. Create a function that returns a Promise resolving after 2 seconds with a 
+message "Hello World". Use async/await to print it.
+2. Fetch data from a public API (e.g., https://jsonplaceholder.typicode.com/posts) using fetch() and handle it with async/await.
+3. Create a Promise that randomly resolves or rejects. Use try...catch with async/await to handle success and error.
+4. Implement a delayed addition function that returns a Promise adding two numbers after 3 seconds. Await its result and print it.
+5. Make two API calls sequentially using async/await and print the results.
+6. Make the same two API calls in parallel using Promise.all() and await the results.
+7. Create a function that reads multiple URLs (can use fetch) and handles errors individually using try...catch.
+8. Create a countdown timer using async/await and setTimeout wrapped in a Promise.
+9. Simulate a user login system where a Promise resolves if username and password match and rejects if not. Handle it using async/await.
+10. Chain multiple async functions (like getUser(), getPosts(userId), getComments(postId)) using async/await.
+11. Implement a retry mechanism: if a Promise fails, retry up to 3 times using async/await.
+12. Use Promise.race() with two Promises: one resolves and one rejects, and handle whichever completes first.
+13. Read multiple files asynchronously (simulate with Promises and setTimeout) and log their contents using async/await.

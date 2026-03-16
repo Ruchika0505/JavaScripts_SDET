@@ -1,0 +1,45 @@
+// let fruits=["Banana","Orange","Apple","Mango"]
+
+// //toString() & join()
+// console.log(fruits.toString()); //Converts array to string
+// console.log(fruits.join(",")) //Joins array elements into string
+
+// toString() converts array to comma-separated string,
+//  while join() allows a custom separator.
+
+//pop()
+
+// let fruits=["Banana","Orange","Apple","Mango"]
+// console.log("before: ", fruits)
+// console.log(fruits.pop(1))
+// console.log("After: ",  fruits)
+
+//push()
+
+
+// let fruits=["Banana","Orange","Apple","Mango"]
+// console.log(fruits.push("Kiwi")) //return length and add element
+// console.log(fruits)
+
+
+//shift()
+// let fruits=["Banana","Orange","Apple","Mango"]
+// console.log(fruits.shift()) //remove first element and move other element on lower index
+// console.log(fruits)
+
+//unshift()
+// let fruits=["Banana","Orange","Apple","Mango"]
+// console.log(fruits.unshift("Kiwi")) //return length and add new element
+// console.log(fruits)
+
+//delete specfic element from array
+let fruits=["Banana","Orange","Apple","Mango"]
+delete fruits[1]
+console.log(fruits)
+
+//concat()
+let arr1=[10,20]
+let arr2=["A","B","C"]
+console.log(arr1.concat(arr2))
+let arr3=["x","y","z"]
+console.log(arr1.concat(arr2,arr3))

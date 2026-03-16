@@ -1,0 +1,37 @@
+// // console.log("hi")
+// // console.error("Error")
+// //  console.warn("Warining")
+
+//  let users = [
+//     { id: 1, name: "David" },
+//     { id: 2, name: "John" }
+// ];
+// console.table(users);
+
+
+// // console.time("LoopTime");
+// // for (let i = 0; i < 1000000; i++) {}
+// // console.timeEnd("LoopTime");
+
+// function add(a, b) {
+//     debugger;  // execution pauses here
+//     return a + b;
+// }
+// console.log(add(5, 10));
+
+// console.time("LoopTime");
+// for (let i = 0; i < 1000000; i++) {}
+// console.timeEnd("LoopTime");
+
+
+function calculateTotal(price, quantity) {
+    let total = price * quantity;
+    let discount = 0;
+    if (total > 1000) {
+        discount = total * 0.1;
+    }
+    let finalAmount = total - discount;
+    return finalAmount;
+}
+let result = calculateTotal(200, 6);
+console.log("Final Amount:", result);

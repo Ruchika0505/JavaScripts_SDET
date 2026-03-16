@@ -1,0 +1,44 @@
+1️ Create a student object and print all properties dynamically
+2️ Add a property dynamically and display updated object
+3️ Delete a property and verify removal
+4️ Count number of keys in an object
+5️ Check if a given key exists in an object
+6️ Clone an object using spread operator
+7️ Clone an object using Object.assign()
+8️ Demonstrate reference vs copy behavior
+9️ Create shallow copy and modify nested value
+10 Create deep copy and prove original unchanged
+11️ Print all keys using Object.keys()
+12️ Print all values using Object.values()
+13️ Print key-value pairs using Object.entries()
+14️ Convert object into array of keys
+15️ Convert entries array back to object
+16️ Merge two objects with overlapping keys
+17️ Reverse merge order and compare results
+18️ Override specific properties while merging
+19️ Freeze object and test modification
+20 Seal object and test property addition
+21️ Extract properties using destructuring
+22️ Use default values in destructuring
+23️ Rename variables during destructuring
+24️ Destructure nested object
+25️ Extract array inside object
+26️ Swap values using destructuring
+27️ Convert object to JSON string
+28️ Parse JSON string to object
+29️ Remove fields before stringifying
+30️ Deep clone object using JSON
+31️ Create nested employee object with address
+32️ Update deeply nested property
+33️ Safely access nested values (optional chaining)
+34️ Flatten one-level nested object
+35️ Merge nested structures
+36️ Find property with highest numeric value
+37️ Filter object based on condition
+38️ Convert object values to uppercase
+39️ Reverse keys and values
+40️ Count frequency of values in object
+41️ Find duplicate values
+42️ Compare two objects for equality
+43️ Find missing keys compared to another object
+44️ Sort object by values
